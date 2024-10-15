@@ -6,7 +6,7 @@
 Desenvolver Recursos Educacionais Abertos (REA) para a disciplina de **Fundamentos da Programação**, proporcionando um aprendizado acessível e lúdico para estudantes interessados em adquirir conhecimentos básicos de programação.
 
 ## :books: Conteúdo
-Este REA abrange os principais conceitos e fundamentos da programação, com o objetivo de facilitar o aprendizado através de materiais educativos interativos e didáticos. As matérias abordadas incluem:
+Este projeto abrange os principais conceitos e fundamentos da programação, com o objetivo de facilitar o aprendizado através de materiais educativos interativos e didáticos. As matérias abordadas incluem:
 
 ### 1. Fundamentos de Algoritmos
 - **Conceitos**: Constantes, variáveis, expressões aritméticas, relacionais e lógicas.
@@ -29,8 +29,8 @@ Este REA abrange os principais conceitos e fundamentos da programação, com o o
 - **Vetores**: Estruturas unidimensionais para armazenamento de múltiplos valores do mesmo tipo.
 - **Matrizes**: Estruturas bidimensionais que permitem o armazenamento de dados em uma tabela.
 
-### 6. Variáveis Compostas Heterogêneas (15h)
-- **Registros (Structs)**: Estruturas que permitem o armazenamento de diferentes tipos de dados em um único bloco.
+### 6. Variáveis Compostas Heterogêneas 
+- **Structs**: Estruturas que permitem o armazenamento de diferentes tipos de dados em um único bloco.
 
 ## :link: Links Importantes
 

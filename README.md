@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> :computer: Fundamentos da Programação :computer: </h1>
+  <h1> :computer: Certificadora de Competência Comum - Primeira Linha :computer: </h1>
   <img src="imgs/header.png" alt="header">
 </div>
 

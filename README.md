@@ -1,5 +1,6 @@
 <div align="center">
   <h1> :computer: Fundamentos da Programação :computer: </h1>
+  <img src="imgs/header.png" alt="header">
 </div>
 
 ## :scroll: Objetivo Geral

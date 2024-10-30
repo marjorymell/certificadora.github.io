@@ -1,0 +1,14 @@
+{
+  "name": "certificadora-comum",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <h1> :computer: Certificadora de Competência Comum :computer: </h1>\r   <img src=\"imgs/header.png\" alt=\"header\">\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

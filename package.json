@@ -1,0 +1,19 @@
+{
+  "name": "certificadora-comum",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <h1> :computer: Certificadora de Competência Comum :computer: </h1>\r   <img src=\"imgs/header.png\" alt=\"header\">\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<< HEAD
+    "bootstrap": "^5.3.3",
+    "certificadora-comum": "file:"
+=======
+    "bootstrap": "^5.3.3"
+>>>>>>> ba91ea23b92c20a32dce403c5915634b2be034cd
+  }
+}

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "certificadora-comum": "file:",
     "bootstrap": "^5.3.3"
   }
 }

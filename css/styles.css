@@ -11704,3 +11704,40 @@ section#contact form#contactForm :-ms-input-placeholder {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+
+.video-section {
+  margin: 20px;
+}
+
+.video {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.video p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.video ul {
+  list-style: none;
+  padding: 0;
+}
+
+.video ul li {
+  margin-bottom: 5px;
+}
+
+.video a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.video a:hover {
+  text-decoration: underline;
+}

@@ -11764,3 +11764,96 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: #c82333;
   border-color: #bd2130;
 }
+
+/* Estilos refinados para os cards de objetivos */
+.objective-card {
+  padding: 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 5px 5px 15px #d1d1d1, -5px -5px 15px #ffffff;
+  margin-bottom: 2rem;
+}
+
+.objective-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 20px #c1c1c1, -8px -8px 20px #ffffff;
+}
+
+.fa-stack {
+  font-size: 2rem; /* Reduz o tamanho do ícone */
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.objective-card:hover .fa-stack {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.objective-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.objective-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.objective-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+  opacity: 0;
+  margin-top: 1rem;
+}
+
+.objective-details.active {
+  max-height: 300px;
+  opacity: 1;
+}
+
+.objective-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.objective-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.objective-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--bs-primary);
+}
+
+/* Melhorias na tipografia da seção */
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.section-subheading {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}

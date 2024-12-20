@@ -40,3 +40,37 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+function toggleObjectiveDetails(index) {
+  const details = document.getElementById(`objective-details-${index}`);
+  const allDetails = document.querySelectorAll(".objective-details");
+
+  // Fecha todos os outros detalhes
+  allDetails.forEach((detail, i) => {
+    if (i !== index) {
+      detail.classList.remove("active");
+      setTimeout(() => {
+        detail.style.maxHeight = "0";
+      }, 50);
+    }
+  });
+
+  // Alterna o estado do detalhe clicado
+  if (details.classList.contains("active")) {
+    details.classList.remove("active");
+    setTimeout(() => {
+      details.style.maxHeight = "0";
+    }, 50);
+  } else {
+    details.classList.add("active");
+    details.style.maxHeight = details.scrollHeight + "px";
+  }
+}
+
+// Adiciona evento de redimensionamento para ajustar a altura máxima
+window.addEventListener("resize", () => {
+  const activeDetails = document.querySelector(".objective-details.active");
+  if (activeDetails) {
+    activeDetails.style.maxHeight = activeDetails.scrollHeight + "px";
+  }
+});

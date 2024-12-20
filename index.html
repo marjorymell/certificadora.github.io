@@ -86,54 +86,79 @@
       </div>
     </header>
 
-    <section class="page-section" id="services">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Objetivos</h2>
-          <h3 class="section-subheading text-muted">
-            Ensinar algoritmos de forma prática e didática, promovendo o
-            desenvolvimento do raciocínio lógico e a compreensão dos fundamentos
-            da programação. A meta é capacitar alunos a resolver problemas de
-            maneira estruturada e eficiente, utilizando conceitos básicos e
-            avançados de algoritmos.
-          </h3>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa-solid fa-gear fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Desenvolver raciocínio lógico</h4>
-            <p class="text-muted">
-              Capacitar alunos a pensar de forma estruturada para resolver
-              problemas.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa-solid fa-laptop-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Compreender fundamentos da programação</h4>
-            <p class="text-muted">
-              Abordar conceitos básicos e avançados de algoritmos.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa-solid fa-file-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Aplicar conhecimentos na prática</h4>
-            <p class="text-muted">
-              Estimular a resolução de problemas reais usando algoritmos
-              eficientes.
-            </p>
+<!-- Modificação na seção de objetivos no index.html -->
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Objetivos</h2>
+      <h3 class="section-subheading text-muted">
+        Ensinar algoritmos de forma prática e didática, promovendo o desenvolvimento do raciocínio lógico e a compreensão dos fundamentos da programação. A meta é capacitar alunos a resolver problemas de maneira estruturada e eficiente, utilizando conceitos básicos e avançados de algoritmos.
+      </h3>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="objective-card" onclick="toggleObjectiveDetails(0)">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa-solid fa-gear fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Desenvolver raciocínio lógico</h4>
+          <p class="text-muted">
+            Capacitar alunos a pensar de forma estruturada para resolver problemas.
+          </p>
+          <div class="objective-details" id="objective-details-0">
+            <ul class="objective-list">
+              <li>Desenvolvimento de pensamento analítico</li>
+              <li>Resolução estruturada de problemas</li>
+              <li>Melhoria na capacidade de abstração</li>
+              <li>Prática com exercícios progressivos</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+      <div class="col-md-4">
+        <div class="objective-card" onclick="toggleObjectiveDetails(1)">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa-solid fa-laptop-code fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Compreender fundamentos da programação</h4>
+          <p class="text-muted">
+            Abordar conceitos básicos e avançados de algoritmos.
+          </p>
+          <div class="objective-details" id="objective-details-1">
+            <ul class="objective-list">
+              <li>Variáveis e tipos de dados</li>
+              <li>Estruturas de controle</li>
+              <li>Funções e modularização</li>
+              <li>Estruturas de dados básicas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="objective-card" onclick="toggleObjectiveDetails(2)">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa-solid fa-file-code fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Aplicar conhecimentos na prática</h4>
+          <p class="text-muted">
+            Estimular a resolução de problemas reais usando algoritmos eficientes.
+          </p>
+          <div class="objective-details" id="objective-details-2">
+            <ul class="objective-list">
+              <li>Projetos práticos</li>
+              <li>Exercícios baseados em casos reais</li>
+              <li>Desenvolvimento de soluções completas</li>
+              <li>Implementação de algoritmos eficientes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <section class="page-section bg-light" id="portfolio">
       <div class="container">
@@ -407,7 +432,7 @@
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Nosso time incrível!</h2>
           <h3 class="section-subheading text-muted">
-            Nos acompanhe em nossas redes sociais.
+            Nos acompanhe em nosso Linkedin.
           </h3>
         </div>
         <div class="row">

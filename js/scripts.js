@@ -1,5 +1,4 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-  // Navbar shrink function
   var navbarShrink = function () {
     const navbarCollapsible = document.body.querySelector("#mainNav");
     if (!navbarCollapsible) {
@@ -12,13 +11,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
   };
 
-  // Shrink the navbar
   navbarShrink();
 
-  // Shrink the navbar when page is scrolled
   document.addEventListener("scroll", navbarShrink);
 
-  //  Activate Bootstrap scrollspy on the main nav element
   const mainNav = document.body.querySelector("#mainNav");
   if (mainNav) {
     new bootstrap.ScrollSpy(document.body, {
@@ -27,7 +23,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   }
 
-  // Collapse responsive navbar when toggler is visible
   const navbarToggler = document.body.querySelector(".navbar-toggler");
   const responsiveNavItems = [].slice.call(
     document.querySelectorAll("#navbarResponsive .nav-link")
@@ -45,7 +40,6 @@ function toggleObjectiveDetails(index) {
   const details = document.getElementById(`objective-details-${index}`);
   const allDetails = document.querySelectorAll(".objective-details");
 
-  // Fecha todos os outros detalhes
   allDetails.forEach((detail, i) => {
     if (i !== index) {
       detail.classList.remove("active");
@@ -55,7 +49,6 @@ function toggleObjectiveDetails(index) {
     }
   });
 
-  // Alterna o estado do detalhe clicado
   if (details.classList.contains("active")) {
     details.classList.remove("active");
     setTimeout(() => {
@@ -67,7 +60,6 @@ function toggleObjectiveDetails(index) {
   }
 }
 
-// Adiciona evento de redimensionamento para ajustar a altura máxima
 window.addEventListener("resize", () => {
   const activeDetails = document.querySelector(".objective-details.active");
   if (activeDetails) {

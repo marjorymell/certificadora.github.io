@@ -11706,36 +11706,61 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .video-section {
-  margin: 20px;
+  margin-top: 2rem;
 }
 
-.video {
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  background-color: #f9f9f9;
+.video-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
 }
 
-.video p {
-  font-size: 16px;
-  margin-bottom: 10px;
+.video-item h4 {
+  color: #0d6759;
+  margin-bottom: 0.5rem;
 }
 
-.video ul {
-  list-style: none;
-  padding: 0;
+.video-item p {
+  margin-bottom: 1rem;
 }
 
-.video ul li {
-  margin-bottom: 5px;
+.video-item .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.video a {
-  color: #007bff;
-  text-decoration: none;
+.modal-body h2 {
+  color: #0d6759;
+  margin-bottom: 1rem;
 }
 
-.video a:hover {
-  text-decoration: underline;
+.modal-body .item-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+.modal-body .btn-xl {
+  margin-top: 2rem;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
 }
